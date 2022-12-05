@@ -114,7 +114,7 @@ const Doctor = () => {
                     />
                   </Modal>
 
-                  <Typography variant='h4'>Patient Records</Typography>
+                  <Typography variant='h4'>Patient Record</Typography>
                   <Box display='flex' alignItems='center' my={1}>
                     <FormControl fullWidth>
                       <TextField
@@ -132,8 +132,8 @@ const Doctor = () => {
                         <SearchRoundedIcon style={{ color: 'white' }} />
                       </CustomButton>
                     </Box>
-                    <CustomButton text={'New Record'} handleClick={() => setAddRecord(true)} disabled={!patientExist}>
-                      <CloudUploadRoundedIcon style={{ color: 'white' }} />
+                    <CustomButton text={'Report'} color={patientExist ? 'white' : 'gray'} handleClick={() => setAddRecord(true)} disabled={!patientExist}>
+                      <CloudUploadRoundedIcon style={{ color: (patientExist ? 'white' : 'gray') }} />
                     </CustomButton>
                   </Box>
 
@@ -157,7 +157,7 @@ const Doctor = () => {
                     <Divider />
                   </Box>
 
-                  <Typography variant='h4'>Register Patient</Typography>
+                  <Typography variant='h4'>Register New Patient</Typography>
                   <Box display='flex' alignItems='center' my={1}>
                     <FormControl fullWidth>
                       <TextField
