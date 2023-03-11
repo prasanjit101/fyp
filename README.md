@@ -19,7 +19,7 @@ $ npm install
 
 - compile and deploy smart contracts
 
-Connect blockchain network 
+Connect blockchain network
 
 ```sh
 $ truffle compile
