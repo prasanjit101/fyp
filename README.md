@@ -1,6 +1,6 @@
-# React Truffle Box
+# Decentralised medical record keeping app
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
+A decentralized application (dapp) that leverages Solidity smart contracts and IPFS to facilitate the registration of doctors and patients, while enabling the storage of medical records in a decentralized manner.
 
 ## Installation
 
